@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/images/logo-favicon.PNG" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+<!---------Navigation Bar----->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logoipsum.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">OUR TEAM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#price">PRICE PLANS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>   
+</section>
+
+<!---------Slider---------->
+<div class="slider">
+    <div id="headerSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#headerSlider" data-slide-to="1"></li>
+          <li data-target="#headerSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block img-fluid" src="images/banner_1.jpg" alt="First slide" style="width:100%;">
+            <div class="carousel-caption">
+                <h5>How To Make A Website</h5>
+          </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="images/banner_2.PNG" alt="Second slide" style="width:100%;">
+            <div class="carousel-caption">
+                <h5>Create Responsive Websites</h5>
+          </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="images/banner_3.jpg" alt="Third slide" style="width:100%;">
+            <div class="carousel-caption">
+                <h5>Business Website Design</h5>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+<!---------------About----------->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <div class="about-content">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequatur asperiores expedita fugiat. Facere culpa natus incidunt optio vel esse sunt sit. Recusandae, cum pariatur. Libero praesentium unde esse illum. 
+                </div>
+                <button type="button" class="btn btn-primary">Read more>></button>
+            </div>
+            <div class="col-md-6 skills-bar">
+                <p>Adobe Photoshop</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+                <p>UI Design</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+                <p>WordPress</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;">75%</div>
+                </div>
+                <p>Graphics Design</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 50%;">50%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------Services------------->
+<section id="services">
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="row services">
+            <div class="col-md-3 text-center">
+                    <div class="icon">
+                       <i class="fa fa-desktop"></i> 
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus similique.</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="icon">
+                 <i class="fa fa-tablet"></i> 
+              </div>
+              <h3>App Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, veniam nobis quisquam reiciendis.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="icon">
+           <i class="fa fa-line-chart"></i> 
+        </div>
+        <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas ab optio obcaecati, eum.</p>
+</div>
+<div class="col-md-3 text-center">
+  <div class="icon">
+     <i class="fa fa-paint-brush"></i> 
+  </div>
+  <h3>Graphics Design</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, pariatur rerum quae enim sit.</p>
+</div>
+
+        </div>
+    </div>
+</section>
+<!--------------------Team Members----------->
+<section id="team">
+<div class="container">
+    <h1>Our Team</h1>
+    <div class="row">
+      <div class="col-md-3 profile-pic text-center">
+          <div class="img-box">
+            <img src="images/team1.png" class="img-responsive" style="width:250px; height: 310px;" alt="team 1">
+            <ul>
+              <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+              <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+              <a href="#"><li><i class="fa fa-linkedin"></i> </li></a>
+            </ul>
+          </div>
+          <h2>John Crews</h2>
+          <h3>Founder / CEO</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="col-md-3 profile-pic text-center">
+        <div class="img-box">
+          <img src="images/team2.png" class="img-responsive" style="width:250px; height: 310px;" alt="team 2">
+          <ul>
+            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+            <a href="#"><li><i class="fa fa-linkedin"></i> </li></a>
+          </ul>
+        </div>
+        <h2>Daniel Smith</h2>
+        <h3>Business Lead</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="col-md-3 profile-pic text-center">
+      <div class="img-box">
+        <img src="images/team3.PNG" class="img-responsive" style="width:250px; height: 310px;" alt="team 3">
+        <ul>
+          <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+          <a href="#"><li><i class="fa fa-linkedin"></i> </li></a>
+        </ul>
+      </div>
+      <h2>Magan Johnson</h2>
+      <h3>Marketing Head</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+      <img src="images/team4.PNG" class="img-responsive" style="width:250px; height: 310px;" alt="team 4">
+      <ul>
+        <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+        <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+        <a href="#"><li><i class="fa fa-linkedin"></i> </li></a>
+      </ul>
+    </div>
+    <h2>Lilly Hives</h2>
+    <h3>UI Designer</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+    </div>
+</div>
+
+</section>
+
+<!-----------------Promo------------>
+
+<section id="promo">
+  <div class="container">
+      <p>Get Free Domain Name and Web Hosting</p>
+      <a href="#contact" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
+<!---------------Price Plans------------>
+<section id="price">
+  <div class="container">
+    <h1>Price Plan</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Free</h2>
+            <p>$0/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>5GB Space</li>
+              <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+              <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Domains</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button">
+            <a href="#" class="buy-btn">Join Free</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Start Up</h2>
+            <p>$10/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>10GB Space</li>
+              <li><i class="fa fa-check-circle"></i>100GB Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Domains</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button">
+            <a href="#" class="buy-btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Business</h2>
+            <p>$50/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>20GB Space</li>
+              <li><i class="fa fa-check-circle"></i>200GB Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Domains</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button">
+            <a href="#" class="buy-btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Advanced</h2>
+            <p>$100/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>50GB Space</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Email Account</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Domains</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button">
+            <a href="#" class="buy-btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------------------------Testimonials------------------>
+<section id="testimonials">
+    <div class="container">
+       <h1>Testimonials</h1>
+       <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi nihil quisquam! Fugit quibusdam ipsum.
+       </p>
+       <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="profile">
+                <img src="images/user1.PNG" alt="user1" class="user">
+                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est reprehenderit quisquam suscipit in temporibus, natus numquam odio fuga modi dolores necessitatibus voluptate ab voluptates.</blockquote>
+                <h3>Jessica Turing <span>Co-Founder at XYZ</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="profile">
+                <img src="images/user2.PNG" alt="user2" class="user">
+                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolore obcaecati accusantium officia odio magni recusandae voluptatem quasi, soluta natus, quam nesciunt aut beatae.</blockquote>
+                <h3>Jim Adams <span>Manager at XYZ</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="profile">
+                <img src="images/user3.PNG" alt="user3" class="user">
+                <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est reprehenderit quisquam suscipit in temporibus, natus numquam odio fuga modi dolores necessitatibus voluptate ab voluptates.</blockquote>
+                <h3>Jack Wills <span>Founder / CEO at XYZ</span></h3>
+          </div>
+        </div>
+       </div>
+    </div>
+</section>
+
+<!------------------------------Get In Touch---------------->
+<section id="contact">
+  <div class="container">
+      <h1>Get In Touch</h1>
+    <div class="row">
+        <div class="col-md-6">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows = "4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+          </form>
+          </div>
+
+          <div class="col-md-6 contact-info">
+            <div class="follow"><strong>Address: </strong><i class="fa fa-map-marker"></i>123 Road, Bloemfontein, 9300, South Africa</div>
+          
+            <div class="follow"><strong>Phone: </strong><i class="fa fa-phone"></i>+27 123 456 7890</div>
+          
+            <div class="follow"><strong>Email: </strong><i class="fa fa-envelope-o"></i>example@website.com</div>
+
+            <div class="follow"><label><strong>Get Social: </strong></label>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-youtube-play"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+       </div>
+        
+    </div>
+  </div>
+</section>
+<!---------------------------------------------Footer------------------>
+<section id="footer">
+  <div class="container text-center">
+    <p>Copyright &copy; 2023</p>
+  </div>
+</section>
+
+<!---------------------------------------------Footer End------------------>
+<script src="js/smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+
+</body>
+</html>
